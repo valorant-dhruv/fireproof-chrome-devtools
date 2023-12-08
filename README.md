@@ -1,4 +1,4 @@
-#Fireproof Chrome Extension
+Fireproof Chrome Extension
 
 How to run the extension locally?
 1)	Fork this repository and download the source code
