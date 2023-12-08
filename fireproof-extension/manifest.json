@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Fireproof databases",
+  "description": "A simple browser extension that queries and displays all the existing fireproof provisioned databases along with the stored documents",
+  "version": "0.1.0",
+  "permissions": ["storage", "tabs", "activeTab", "scripting"],
+  "host_permissions": ["*://*/"],
+  "devtools_page": "popup.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/content-script.js"]
+    }
+  ],
+  "action": {
+    "default_icon": "images/fireproof_img.png"
+  }
+}
