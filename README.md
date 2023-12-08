@@ -24,6 +24,12 @@ Now whenever a user clicks on one of the databases, via background, the clicked 
 However, as content-script does not have access to the node modules, therefore we bundle the fireproof package and the content script using a bundler such as babel and now we have a bundled content script. It is this bundled script that is injected to the application. 
 Now once it uses the fireproof function to fetch all the documents, it again sends the data to background which is sent to popup.js file. Now again, it loops through all the documents and adds the content to the HTML file. Also for every document it creates an event listener such that whenever the id of that document is being clicked, more details about its content is displayed on the rightmost section of the HTML file.
 
+![image](https://github.com/valorant-dhruv/fireproof-extension-v3/assets/78591597/331be479-2b0c-4d3a-89a4-7b173b0a9703)
+
+A typical output:
+
+![image](https://github.com/valorant-dhruv/fireproof-extension-v3/assets/78591597/b1d3e44e-808e-439f-bfc2-94e1303d8b68)
+
  
 
 A typical output:
