@@ -3,7 +3,7 @@ Fireproof Chrome Extension
 How to run the extension locally?
 1)	Fork this repository and download the source code
 2)	Now go to chrome://extensions and click on load unpacked
-3)	Load the downloaded folder
+3)	Load the fireproof-extension folder
 4)	You are good to go! Use the extension for any application using fireproof APIs or hooks
 
 
